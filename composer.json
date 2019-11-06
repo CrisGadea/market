@@ -1,0 +1,11 @@
+{
+    "name": "crisgadea/market",
+    "description": "It is the composer json of market proyect. Take care for this files!",
+    "authors": [
+        {
+            "name": "CrisGadea",
+            "email": "cristianhernangadea@gmail.com"
+        }
+    ],
+    "require": {}
+}
