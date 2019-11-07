@@ -1,5 +1,8 @@
 <?php
 session_start();
+
+echo "hola";
+
 require_once 'autoload.php';
 require_once 'config/db.php';
 require_once 'config/parameters.php';
@@ -8,7 +11,7 @@ require_once 'views/layout/header.php';
 require_once 'views/layout/sidebar.php';
 
 function show_error(){
-	$error = new errorController();
+	$error = new ErrorController();
 	$error->index();
 }
 

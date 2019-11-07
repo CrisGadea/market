@@ -1,5 +1,5 @@
 CREATE DATABASE market_master;
-use market_master;
+USE market_master;
 
 CREATE TABLE users(
 id        int(255) auto_increment not null,
@@ -19,7 +19,7 @@ INSERT INTO users VALUES(NULL,'admin','admin','admin@admin.com','admin','admin',
 CREATE TABLE categories(
 id        int(255) auto_increment not null,
 name      varchar(100) not null,
-CONSTRAINT pk_categories PRIMARY KEY(id),
+CONSTRAINT pk_categories PRIMARY KEY(id)
 )ENGINE=InnoDb;
 
 INSERT INTO categories VALUES(null, 'manga corta');
